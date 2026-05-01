@@ -1,0 +1,25 @@
+# TWDTW State-Scale LULC Pipeline — Python dependencies
+# Install via: conda env create -f environment.yml
+# Or:          pip install -r requirements.txt
+
+# Core geospatial
+rasterio>=1.3
+rioxarray>=0.15
+geopandas>=0.14
+shapely>=2.0
+
+# STAC / cloud data access
+pystac-client>=0.7
+planetary-computer>=1.0
+stackstac>=0.4
+
+# Distributed computing
+dask[distributed]>=2024.1
+
+# Numerical / array
+numpy>=1.26
+numba>=0.59
+xarray>=2024.1
+
+# Utilities
+tqdm>=4.0
