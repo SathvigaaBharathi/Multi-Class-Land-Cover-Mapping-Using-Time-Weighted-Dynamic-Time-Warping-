@@ -1,0 +1,21 @@
+name: twdtw_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - numba>=0.59
+  - rasterio>=1.3
+  - rioxarray>=0.15
+  - geopandas>=0.14
+  - shapely>=2.0
+  - xarray>=2024.1
+  - dask>=2024.1
+  - distributed>=2024.1
+  - tqdm
+  - pip
+  - pip:
+    - pystac-client>=0.7
+    - planetary-computer>=1.0
+    - stackstac>=0.4
